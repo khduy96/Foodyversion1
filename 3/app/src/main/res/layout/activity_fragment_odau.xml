@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.khanhduy.a3.fragments.tabs.fragment_odau"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:drawablePadding="-30dp"
+            android:background="@drawable/btn_selector"
+            android:drawableBottom="@drawable/ic_expand_more_black_24dp"
+            android:text="Mới nhất"
+            android:textColor="@android:color/holo_red_light"
+            android:textAllCaps="false"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/btn2"
+            android:text="Danh mục"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:drawablePadding="-30dp"
+            android:background="@drawable/btn_selector"
+            android:drawableBottom="@drawable/ic_expand_more_black_24dp"
+            android:textColor="@android:color/black"
+            android:textAllCaps="false"
+            style="?android:attr/borderlessButtonStyle"/>
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:drawablePadding="-30dp"
+            android:background="@drawable/btn_selector"
+            android:drawableBottom="@drawable/ic_expand_more_black_24dp"
+            android:text="TP.HCM"
+            android:textColor="@android:color/black"
+            android:textAllCaps="false"
+            style="?android:attr/borderlessButtonStyle"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+        <FrameLayout
+            android:id="@+id/fragments"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+        <ListView
+            android:id="@+id/lvmain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="8dp"/>
+
+    </LinearLayout>
+</LinearLayout>

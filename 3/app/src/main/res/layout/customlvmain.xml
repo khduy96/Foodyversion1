@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="6dp">
+
+        <TextView
+            android:id="@+id/TV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/tron"
+            android:gravity="center"
+            android:padding="6dp"
+            android:layout_marginRight="6dp"
+            android:text="7.0"
+            android:textColor="#f6fbf6"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TV1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ngõ 8 - Trà Chanh và Lẩu Riêu Cua Đồng - Trương Định"
+                android:lines="1"
+                android:textColor="#2f2f2f"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/TV2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#afafaf"
+                android:text="35 Trương Định, P. 6, Quận 3, TP. HCM"
+                android:textSize="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/foody_mobile_256x256"
+            android:minHeight="300dp"
+            android:layout_weight="4" />
+
+        <Button
+            android:id="@+id/button"
+            android:gravity="bottom|center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dathang"
+            android:drawableTop="@drawable/ic_man"
+            android:paddingBottom="4dp"
+            android:layout_margin="4dp"
+            android:drawablePadding="-10dp"
+            android:text="Đặt giao hàng"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_margin="6dp"
+                android:background="@drawable/dn_ic_user_avatar" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TV3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textSize="12sp"
+                        android:textColor="#3f3f3f"
+                        android:text="Minh"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/TV4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:lines="1"
+                        android:text="5.4"
+                        android:textColor="#46ad35"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/TV5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="2"
+                    android:textColor="#6b6b6b"
+                    android:text="Mình đến với quán nhân dịp họp mặt với đồng nghiệp cũ. Tới nơi hơi bất ngờ vì thấy quán rất đông khách. Khách tới ăn phải giữ xe nhờ ở các nơi gần đó.
+Đồ ăn khá rẻ so với chất lượng và vị trí mặt bằng. Thích hợp để thử nhiều món vì mỗi dĩa thức ăn không quá to. Một số món mình khá ấn tượng như chả ..." />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imageButton1"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="6dp"
+                    android:background="@drawable/dn_ic_user_avatar" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/TV6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Khánh Duy"
+                        android:textColor="#3f3f3f"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TV7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        android:text="6.2"
+                        android:textColor="#46ad35" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/TV8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lines="2"
+                    android:text="Mình đến với quán nhân dịp họp mặt với đồng nghiệp cũ. Tới nơi hơi bất ngờ vì thấy quán rất đông khách. Khách tới ăn phải giữ xe nhờ ở các nơi gần đó.
+Đồ ăn khá rẻ so với chất lượng và vị trí mặt bằng. Thích hợp để thử nhiều món vì mỗi dĩa thức ăn không quá to. Một số món mình khá ấn tượng như chả ..."
+                    android:textColor="#6b6b6b" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right|center_vertical">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="right"
+                    android:src="@drawable/ic_action_name" />
+
+                <TextView
+                    android:id="@+id/TV9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#b7b7b7"
+                    android:gravity="right|center"
+                    android:text="36" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="32dp"
+                android:gravity="left|center_vertical">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="right"
+                    android:src="@drawable/ic_camera" />
+
+                <TextView
+                    android:id="@+id/TV10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|center"
+                    android:textColor="#b7b7b7"
+                    android:text="321" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingRight="6dp">
+
+                <TextView
+                    android:id="@+id/TV11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="right|center"
+                    android:text="Đang mở cửa"
+                    android:textColor="#b7b7b7"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:layout_marginLeft="6dp"
+                    android:background="@drawable/tron" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
